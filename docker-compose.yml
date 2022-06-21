@@ -1,0 +1,5 @@
+version: '3'
+services:
+  jupyterlab-spark:
+    image: jupyterlab-spark:latest
+    network_mode: host
